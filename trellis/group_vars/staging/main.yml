@@ -1,1 +1,6 @@
 mysql_root_password: stagingpw
+
+github_ssh_keys:
+  - username: masoninthesis
+    authorized:
+      - "{{ web_user }}"
